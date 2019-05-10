@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *billAmountTextView;
+@property (weak, nonatomic) IBOutlet UITextField *tipAmountLabel;
+@property (weak, nonatomic) IBOutlet UITextField *tipPercentageTextView;
 
 @end
 
@@ -16,8 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
+- (IBAction)calculateTip:(UIButton *)sender {
+    
+}
 
 @end

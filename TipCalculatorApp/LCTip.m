@@ -21,7 +21,10 @@
     return self;
 }
 
+
+
 - (double) getTip {
+    if (self.tip == 0) return self.amount * 0.15;
     return self.amount * self.tip;
 }
 @end
