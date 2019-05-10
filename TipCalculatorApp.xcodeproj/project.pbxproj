@@ -15,6 +15,7 @@
 		257C94432285CE99003BD5DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C94422285CE99003BD5DF /* main.m */; };
 		257C944D2285CE9A003BD5DF /* TipCalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C944C2285CE9A003BD5DF /* TipCalculatorAppTests.m */; };
 		257C94582285CE9A003BD5DF /* TipCalculatorAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C94572285CE9A003BD5DF /* TipCalculatorAppUITests.m */; };
+		257C94672285D067003BD5DF /* LCTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C94662285D067003BD5DF /* LCTip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		257C94532285CE9A003BD5DF /* TipCalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257C94572285CE9A003BD5DF /* TipCalculatorAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorAppUITests.m; sourceTree = "<group>"; };
 		257C94592285CE9A003BD5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257C94652285D067003BD5DF /* LCTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTip.h; sourceTree = "<group>"; };
+		257C94662285D067003BD5DF /* LCTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				257C94342285CE98003BD5DF /* AppDelegate.m */,
 				257C94362285CE98003BD5DF /* ViewController.h */,
 				257C94372285CE98003BD5DF /* ViewController.m */,
+				257C94652285D067003BD5DF /* LCTip.h */,
+				257C94662285D067003BD5DF /* LCTip.m */,
 				257C94392285CE98003BD5DF /* Main.storyboard */,
 				257C943C2285CE99003BD5DF /* Assets.xcassets */,
 				257C943E2285CE99003BD5DF /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				257C94382285CE98003BD5DF /* ViewController.m in Sources */,
 				257C94432285CE99003BD5DF /* main.m in Sources */,
+				257C94672285D067003BD5DF /* LCTip.m in Sources */,
 				257C94352285CE98003BD5DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
